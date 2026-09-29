@@ -1,0 +1,10 @@
+# Скопируй в ./termux-agent.yaml и поправь под себя.
+# Переменные окружения (TERMUX_AGENT_*) переопределяют значения отсюда.
+
+model: "qwen2.5:7b-instruct"   # любая модель Ollama с поддержкой tools
+host: "http://127.0.0.1:11434"
+auto_yes: false                # true = не спрашивать подтверждение перед shell/записью файлов (ОПАСНО)
+max_steps: 8                   # предохранитель от зацикливания вызовов инструментов
+
+# путь к локальному клону https://github.com/Xnode-sh/Xnode для инструмента osint_lookup
+xnode_path: "~/Xnode"
