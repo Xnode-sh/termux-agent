@@ -41,3 +41,6 @@ termux-agent.yaml
 .env
 .cache/
 *.log
+
+# Rust (local-ai)
+target/
