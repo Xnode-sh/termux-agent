@@ -1,9 +1,13 @@
+<p align="center"><img src="assets/rig-banner.svg" width="1280" alt="XNODE — RED └•TEAM•┐ lab™"></p>
+
+[Штаб лаборатории](https://github.com/Xnode-sh/RED-TEAM-LAB) · [Профиль XNODE](https://github.com/Xnode-sh)
+
 # termux-agent
 
 Локальный LLM-агент с tool-calling для Termux (proot-distro Ubuntu) на Android.
-Часть проекта [RED·TEAM·LAB (@xnode_sh)](https://t.me/xnode_sh) — про Termux,
+Часть проекта [RED └•TEAM•┐ lab™ (@xnode_sh)](https://t.me/xnode_sh) — про Termux,
 OSINT и локальные LLM-агенты на Android. Дополняет
-[Xnode-sh/Xnode](https://github.com/Xnode-sh/Xnode): там — OSINT-скрипты,
+[Xnode-sh/Xnode](https://github.com/Xnode-sh/xnode-osint): там — OSINT-скрипты,
 здесь — агент, который умеет ими пользоваться сам.
 
 Никакого облака: модель крутится локально через [Ollama](https://ollama.com),
@@ -67,7 +71,7 @@ python3 agent.py --yes "почисти __pycache__ в этой директор�
 
 Интеграция с OSINT-инструментами Xnode: укажи `xnode_path` в
 `termux-agent.yaml` (или `TERMUX_AGENT_XNODE_PATH`) на локальный клон
-[Xnode-sh/Xnode](https://github.com/Xnode-sh/Xnode) — тогда агент сможет
+[Xnode-sh/Xnode](https://github.com/Xnode-sh/xnode-osint) — тогда агент сможет
 сам вызывать `osint_lookup` по запросу вроде «пробей username torvalds».
 
 ## Конфигурация
@@ -90,3 +94,11 @@ Ollama-сервер для CI не нужен.
 Это агент с доступом к shell на твоём устройстве. Держи `auto_yes`/`--yes`
 выключенным, если не уверен в модели и промпте; запускай в
 Termux/proot-песочнице, а не на голой системе с чувствительными данными.
+
+<img src="assets/rig-divider.svg" width="1280" alt="">
+
+## Инженерный процесс лаборатории
+
+`PLAN → ISSUE → BRANCH → WORK → TEST → PR → REVIEW → MERGE`
+
+Команда: **RIG / KAI / NOVA**. NODE — фирменный маскот. [Правила работы](https://github.com/Xnode-sh/RED-TEAM-LAB/blob/main/WORKFLOW.md).
