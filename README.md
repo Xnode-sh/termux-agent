@@ -4,6 +4,8 @@
 
 # termux-agent
 
+<p align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android"> <img src="https://img.shields.io/badge/Termux-000000?style=flat-square&logo=termux&logoColor=white" alt="Termux"> <img src="https://img.shields.io/badge/License-MIT-bd2940?style=flat-square&labelColor=17171b" alt="MIT"></p>
+
 Локальный LLM-агент с tool-calling для Termux (proot-distro Ubuntu) на Android.
 Часть проекта [RED └•TEAM•┐ lab™ (@xnode_sh)](https://t.me/xnode_sh) — про Termux,
 OSINT и локальные LLM-агенты на Android. Дополняет
@@ -101,4 +103,4 @@ Termux/proot-песочнице, а не на голой системе с чу�
 
 `PLAN → ISSUE → BRANCH → WORK → TEST → PR → REVIEW → MERGE`
 
-Команда: **RIG / KAI / NOVA**. NODE — фирменный маскот. [Правила работы](https://github.com/Xnode-sh/RED-TEAM-LAB/blob/main/WORKFLOW.md).
+Команда: **FREYA / LIRA / KRIPTO**. NODE — фирменный маскот. [Правила работы](https://github.com/Xnode-sh/RED-TEAM-LAB/blob/main/WORKFLOW.md).
